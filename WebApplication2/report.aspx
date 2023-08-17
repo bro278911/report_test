@@ -12,19 +12,15 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:ScriptManager runat="server"></asp:ScriptManager>
-            <rsweb:ReportViewer ID="EMS_DATA_reportviewer" runat="server"  Height="698px" Width="1376px">
-                <LocalReport ReportPath="Report1.rdlc">
-                    <DataSources>
-                        <rsweb:ReportDataSource DataSourceId="EMS_DATA" Name="EMS_DATA" />
-                    </DataSources>
-                </LocalReport>
+            <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+            <rsweb:ReportViewer ID="ReportViewer1" runat="server" Height="698px" Width="1376px">
+
             </rsweb:ReportViewer>
-            <asp:ObjectDataSource ID="EMS_DATA" runat="server" SelectMethod="Get" TypeName="Feed_Reportview">
-                <SelectParameters>
-                    <asp:CookieParameter CookieName="EMS_DATA" Name="str1" Type="String" />
-                </SelectParameters>
-            </asp:ObjectDataSource>
+            <asp:ObjectDataSource runat="server" SelectMethod="GetData" TypeName="WebApplication2.EMS_DATATableAdapters.EMSTableAdapter" ID="ObjectDataSource1"></asp:ObjectDataSource>
+            
+            
+            
+            
 
         </div>
     </form>
