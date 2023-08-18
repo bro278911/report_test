@@ -17,10 +17,10 @@ public class Feed_Reportview
         // TODO: 在這裡新增建構函式邏輯
         //
     }
-    private const String COL_1 = "編號";
-    private const String COL_2 = "時間";
-    private const String COL_3 = "名稱";
-    private const String COL_4 = "模式";
+    private const String COL_1 = "id";
+    private const String COL_2 = "datatime";
+    private const String COL_3 = "EMS_name";
+    private const String COL_4 = "Running_Mode";
 
     public DataTable Get(string str1)//
     {
@@ -33,13 +33,17 @@ public class Feed_Reportview
         dt.Columns.Add(new DataColumn(COL_3));
         dt.Columns.Add(new DataColumn(COL_4));
         /**開始加入資料囉**/
-        DataRow dr = dt.NewRow();
-        dr[COL_1] = Cloud_EWR_items.Rows[0][0];
-        dr[COL_2] = Cloud_EWR_items.Rows[0][1];
-        dr[COL_3] = Cloud_EWR_items.Rows[0][2];
-        dr[COL_4] = Cloud_EWR_items.Rows[0][3];
+        for(int i = 0; i < Cloud_EWR_items.Rows.Count; i++)
+        {
+            DataRow dr = dt.NewRow();
+            dr[COL_1] = Cloud_EWR_items.Rows[i][0];
+            dr[COL_2] = Cloud_EWR_items.Rows[i][1];
+            dr[COL_3] = Cloud_EWR_items.Rows[i][2];
+            dr[COL_4] = Cloud_EWR_items.Rows[i][3];
 
-        dt.Rows.Add(dr);
+            dt.Rows.Add(dr);
+        }
+
 
         return dt;
     }

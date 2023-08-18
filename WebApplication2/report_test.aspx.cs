@@ -12,18 +12,13 @@ namespace WebApplication2
     
     public partial class report_test : System.Web.UI.Page
     {
-        private Microsoft.Reporting.WebForms.ReportViewer ReportViewer1;
         protected void Page_Load(object sender, EventArgs e)
         {
-            string conn_string = @"Data Source=LAPTOP-LI1PKLM3;Initial Catalog=2M_Web_Data;Persist Security Info=True;User ID=sa;Password=teco11332202";
-            string query = @"SELECT TOP (10) [id],[datatime],[EMS_name],[Running_Mode] FROM [2M_Web_Data].[dbo].[EMS]";
-            SqlConnection conn = new SqlConnection(conn_string);
-            SqlDataAdapter adptr = new SqlDataAdapter(query, conn);
-            //adptr.Fill();
-            ReportDataSource rds = new ReportDataSource("test","123456");
-            this.ReportViewer1.LocalReport.DataSources.Clear();
-            this.ReportViewer1.LocalReport.DataSources.Add(rds);
-            this.ReportViewer1.LocalReport.Refresh();
-        }
+            //string str1 = "";
+            //HttpCookie cookie = new HttpCookie("test_data");    //定義cookie對象以及名為Info的項
+            //cookie.Value = str1;
+
+            //this.ReportViewer1.LocalReport.Refresh();//重整
+         }
     }
 }
