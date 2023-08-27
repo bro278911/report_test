@@ -52,6 +52,7 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
+<<<<<<< HEAD
                   <Width>4.13324cm</Width>
                 </TablixColumn>
                 <TablixColumn>
@@ -62,11 +63,27 @@
                 </TablixColumn>
                 <TablixColumn>
                   <Width>4.13324cm</Width>
+=======
+                  <Width>7.77875cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>7.77875cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>7.77875cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>7.77875cm</Width>
+>>>>>>> cd1915d (final)
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
+<<<<<<< HEAD
                   <Height>0.78748cm</Height>
+=======
+                  <Height>4.5376cm</Height>
+>>>>>>> cd1915d (final)
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -93,8 +110,18 @@
                           <rd:DefaultName>Textbox2</rd:DefaultName>
                           <Style>
                             <Border>
+<<<<<<< HEAD
                               <Style>Solid</Style>
                             </Border>
+=======
+                              <Style>None</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+>>>>>>> cd1915d (final)
                             <BackgroundColor>White</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -130,8 +157,18 @@
                           <rd:DefaultName>Textbox3</rd:DefaultName>
                           <Style>
                             <Border>
+<<<<<<< HEAD
                               <Style>Solid</Style>
                             </Border>
+=======
+                              <Style>None</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+>>>>>>> cd1915d (final)
                             <BackgroundColor>White</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -167,8 +204,18 @@
                           <rd:DefaultName>Textbox5</rd:DefaultName>
                           <Style>
                             <Border>
+<<<<<<< HEAD
                               <Style>Solid</Style>
                             </Border>
+=======
+                              <Style>None</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+>>>>>>> cd1915d (final)
                             <BackgroundColor>White</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -204,8 +251,18 @@
                           <rd:DefaultName>Textbox7</rd:DefaultName>
                           <Style>
                             <Border>
+<<<<<<< HEAD
                               <Style>Solid</Style>
                             </Border>
+=======
+                              <Style>None</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+>>>>>>> cd1915d (final)
                             <BackgroundColor>White</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -219,7 +276,11 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
+<<<<<<< HEAD
                   <Height>0.78748cm</Height>
+=======
+                  <Height>4.5376cm</Height>
+>>>>>>> cd1915d (final)
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -247,6 +308,7 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
+<<<<<<< HEAD
                             <BottomBorder>
                               <Color>Black</Color>
                               <Style>Solid</Style>
@@ -262,6 +324,8 @@
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
+=======
+>>>>>>> cd1915d (final)
                             <BackgroundColor>White</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -298,6 +362,7 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
+<<<<<<< HEAD
                             <BottomBorder>
                               <Color>Black</Color>
                               <Style>Solid</Style>
@@ -313,6 +378,8 @@
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
+=======
+>>>>>>> cd1915d (final)
                             <BackgroundColor>White</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -349,6 +416,7 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
+<<<<<<< HEAD
                             <BottomBorder>
                               <Color>Black</Color>
                               <Style>Solid</Style>
@@ -364,6 +432,8 @@
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
+=======
+>>>>>>> cd1915d (final)
                             <BackgroundColor>White</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -400,6 +470,7 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
+<<<<<<< HEAD
                             <BottomBorder>
                               <Color>Black</Color>
                               <Style>Solid</Style>
@@ -415,6 +486,8 @@
                               <Style>Solid</Style>
                               <Width>1pt</Width>
                             </RightBorder>
+=======
+>>>>>>> cd1915d (final)
                             <BackgroundColor>White</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -448,9 +521,16 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>MyDataSet</DataSetName>
+<<<<<<< HEAD
             <Top>1.4761cm</Top>
             <Height>1.57497cm</Height>
             <Width>16.53298cm</Width>
+=======
+            <Top>4.10104cm</Top>
+            <Left>2.43417cm</Left>
+            <Height>9.07521cm</Height>
+            <Width>31.115cm</Width>
+>>>>>>> cd1915d (final)
             <Style>
               <Border>
                 <Style>None</Style>
@@ -464,7 +544,17 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
+<<<<<<< HEAD
                     <Value>測試報表</Value>
+=======
+                    <Value>=Parameters!ReportParameter1.Value</Value>
+                    <Style>
+                      <FontSize>20pt</FontSize>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Parameters!ReportParameter2.Value</Value>
+>>>>>>> cd1915d (final)
                     <Style>
                       <FontSize>20pt</FontSize>
                     </Style>
@@ -476,6 +566,7 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
+<<<<<<< HEAD
             <Height>1.4761cm</Height>
             <Width>16.53298cm</Width>
             <ZIndex>1</ZIndex>
@@ -486,6 +577,17 @@
               <BottomBorder>
                 <Style>None</Style>
               </BottomBorder>
+=======
+            <Top>0.14965cm</Top>
+            <Left>2.43417cm</Left>
+            <Height>3.91611cm</Height>
+            <Width>31.115cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+>>>>>>> cd1915d (final)
               <VerticalAlign>Middle</VerticalAlign>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
@@ -494,10 +596,17 @@
             </Style>
           </Textbox>
         </ReportItems>
+<<<<<<< HEAD
         <Height>5.62007in</Height>
         <Style />
       </Body>
       <Width>6.50905in</Width>
+=======
+        <Height>5.71875in</Height>
+        <Style />
+      </Body>
+      <Width>20.09375in</Width>
+>>>>>>> cd1915d (final)
       <Page>
         <PageHeight>29.7cm</PageHeight>
         <PageWidth>21cm</PageWidth>
@@ -510,10 +619,42 @@
       </Page>
     </ReportSection>
   </ReportSections>
+<<<<<<< HEAD
+=======
+  <ReportParameters>
+    <ReportParameter Name="ReportParameter1">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ReportParameter2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter2</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+>>>>>>> cd1915d (final)
   <ReportParametersLayout>
     <GridLayoutDefinition>
       <NumberOfColumns>4</NumberOfColumns>
       <NumberOfRows>2</NumberOfRows>
+<<<<<<< HEAD
+=======
+      <CellDefinitions>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>ReportParameter1</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>ReportParameter2</ParameterName>
+        </CellDefinition>
+      </CellDefinitions>
+>>>>>>> cd1915d (final)
     </GridLayoutDefinition>
   </ReportParametersLayout>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
